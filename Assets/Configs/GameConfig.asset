@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a66d2335d41174d488be3da7859bcbf8, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::Snowballin.GameConfig
+  slopeAngleDegrees: 13
+  trackWidth: 80
+  chunkLength: 40
+  chunkCount: 10
+  lateralLimit: 35
+  wallHeight: 20
+  wallThickness: 0.6
+  baseForwardSpeed: 10
+  speedRampPerMeter: 0.005
+  speedPerRadius: 0
+  maxForwardSpeed: 200
+  forwardAcceleration: 30
+  baseLateralSpeed: 20
+  lateralAcceleration: 100
+  gravityY: -30
+  baseJumpHeight: 3.2
+  baseRadius: 0.5
+  growthPerSecond: 0.001
+  maxRadius: 200
+  goldPerSecondPerRadius: 0.5
+  cameraZoomOut: 0.7
+  obstacleCountMin: 7
+  obstacleCountMax: 20
+  difficultyDistance: 2500
+  sameSizeBand: 0.1
+  slowSpeedFactor: 0.5
+  slowDuration: 0.6
+  obstacleLevels:
+  - label: Snow Mound
+    level: 1
+    radius: 0.4
+    unlockDistance: 0
+    weightRampDistance: 1
+    maxWeight: 1
+    points: 25
+    grantsGrowth: 1
+    growthPerHit: 0.05
+    prefab: {fileID: 5389223073872233704, guid: e6bbe2e5ac1164d4b81f96aa955ab3c8, type: 3}
+  - label: Small Rock
+    level: 2
+    radius: 0.9
+    unlockDistance: 2000
+    weightRampDistance: 400
+    maxWeight: 0.5
+    points: 50
+    grantsGrowth: 0
+    growthPerHit: 0
+    prefab: {fileID: 6077677542374085244, guid: 5990d11aec0463c4da7f5764a456864e, type: 3}
+  - label: Hiker
+    level: 3
+    radius: 1.3
+    unlockDistance: 4000
+    weightRampDistance: 500
+    maxWeight: 0.45
+    points: 75
+    grantsGrowth: 0
+    growthPerHit: 0
+    prefab: {fileID: 4151221157079164607, guid: ec1b23b881946c243ae478e6733686e1, type: 3}
+  - label: Tall Tree
+    level: 4
+    radius: 1.7
+    unlockDistance: 5000
+    weightRampDistance: 600
+    maxWeight: 0.35
+    points: 100
+    grantsGrowth: 0
+    growthPerHit: 0
+    prefab: {fileID: 7732262027787448735, guid: f0f3f2fce4ca31846bd35fb83f1ed5d1, type: 3}
+  - label: Snow Mound 2
+    level: 4
+    radius: 2.2
+    unlockDistance: 5000
+    weightRampDistance: 600
+    maxWeight: 0.3
+    points: 120
+    grantsGrowth: 1
+    growthPerHit: 0.6
+    prefab: {fileID: 250241948308853615, guid: 417657abf6de30c468fb3d47f589f0b8, type: 3}
+  - label: House
+    level: 5
+    radius: 3
+    unlockDistance: 7000
+    weightRampDistance: 800
+    maxWeight: 0.2
+    points: 160
+    grantsGrowth: 0
+    growthPerHit: 0
+    prefab: {fileID: 3011601757397500145, guid: 8f0b15270ac01cb4d9bb1cb009591449, type: 3}
+  - label: Skyscraper
+    level: 6
+    radius: 4.5
+    unlockDistance: 10000
+    weightRampDistance: 1200
+    maxWeight: 0.12
+    points: 250
+    grantsGrowth: 0
+    growthPerHit: 0
+    prefab: {fileID: 2239957157159472937, guid: ee3d5a6d68af3094baf3e932ac15fcc8, type: 3}
+  luckyChancePerLevel: 0.05
+  coinArcCount: 5
+  coinArcsMin: 6
+  coinArcsMax: 19
+  coinDistanceRamp: 2000
+  rampChanceBase: 0.1
+  checkpointInterval: 100
+  checkpointBonus: 100
+  airtimePointsPerSecond: 50
+  baseUpgradeCost: 5
+  upgradeCostGrowth: 1.5
+  growthMultiplierPerLevel: 0.3
+  steerPerLevel: 1.8
+  jumpHeightPerLevel: 0.6
+  obstacleRateReductionPerLevel: 0.08
+  goldMultiplierPerLevel: 0.25
